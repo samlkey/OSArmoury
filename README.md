@@ -20,5 +20,10 @@ npm run build
 npm run lint
 ```
 
+## Ideas 
+OSRS helper client:
+best in slot web in a client
+links with runescape client
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

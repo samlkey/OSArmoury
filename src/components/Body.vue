@@ -1,7 +1,7 @@
 <template>
   <div class="app">
    <div>
-       <h1>Hello World!</h1>
+       <h1 style="color: white;">ctr shift i</h1>
   </div>
 </template>
 
@@ -10,3 +10,9 @@ export default {
   name: 'Body'
 }
 </script>
+
+<style>
+.app{
+  height: 100%;
+}
+</style>>

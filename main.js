@@ -1,4 +1,4 @@
-const { app, BrowserWindow, Menu } = require('electron');
+const { app, BrowserWindow, Menu, globalShortcut } = require('electron');
 
 const url = require("url");
 const path = require("path");
@@ -9,14 +9,11 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    frame: false,
     webPreferences: {
       nodeIntegration: true
     }
   })
-  
-  //Removes file menu
-  //mainWindow.setMenu(null)
-
   mainWindow.loadURL(
     url.format({
       pathname: path.join(__dirname, `./dist/index.html`),
@@ -27,7 +24,9 @@ function createWindow() {
   mainWindow.on('closed', function () {
     mainWindow = null
   })
+  mainWindow.setMenu(null)
 }
+
 console.log(app);
 app.on('ready', createWindow)
 
@@ -38,3 +37,4 @@ app.on('window-all-closed', function () {
 app.on('activate', function () {
   if (mainWindow === null) createWindow()
 })
+

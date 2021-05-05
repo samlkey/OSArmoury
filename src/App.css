@@ -1,8 +1,48 @@
+html {
+    background-color: #1E1E1E;
+}
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: Avenir, Helvetica, Ar292A2Dial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+    background-color: #1E1E1E;
+}
+
+#menu {
+    position: fixed; 
+    width: 130px;
+    top: 0px;
+    left: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titlebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin-top: 0;
+    width: 100%;
+    -webkit-app-region: drag;
+}
+
+#titlebar a {
+    float: right;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+menu h1 {
+    font-size: 20px; 
+}
+
+menu h2{
+    font-size: 30px; 
+    top: 8px;
 }

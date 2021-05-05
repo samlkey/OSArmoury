@@ -1,4 +1,4 @@
-# electron-vue
+# OSArmoury
 
 ## Project setup
 ```

@@ -1,0 +1,57 @@
+#house {
+    padding-top: 15%;
+    width: 26px;
+    height: 28px; 
+ 
+}
+
+#sword {
+    width: 30px;
+    height: 30px; 
+}
+
+#icon {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 24px;
+    top: 25px;
+}
+
+.header {
+    background-color: #252526;
+    height: 100%; /* 100% Full-height */
+    width: 85px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    overflow: hidden;
+    display: inline-grid;
+    
+    justify-content: start; 
+    row-gap: 5px;
+    grid-template-rows: 72px;
+  }
+  
+.header a {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 14px;
+    margin-top: 14px;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 8px;
+}
+  
+.header a:hover {
+    background-color: #333333;
+}
+  

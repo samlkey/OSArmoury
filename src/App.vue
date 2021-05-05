@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <div id="titlebar">
-      <a><img src="./images/close.png" width="25px" height="25px"></a>
-      <a><img src="./images/max.png" width="25px" height="25px"></a>
-      <a><img src="./images/mini.png" width="25px" height="25px"></a>
+      <div id="container">
+        <a><img src="./images/mini.png" width="25px" height="25px"></a>
+        <a><img src="./images/max.png" width="25px" height="25px"></a>
+        <a><img src="./images/close.png" width="25px" height="25px" id="close"></a>
+      </div>
       
     </div>
     <div id="menu">

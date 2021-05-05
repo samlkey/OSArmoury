@@ -11,6 +11,16 @@ html {
     background-color: #1E1E1E;
 }
 
+#container a:hover{
+    background-color: #333333;
+}
+
+
+
+#close:hover{
+    background-color: rgba(255, 0, 0, 0.397);
+}
+
 #menu {
     position: fixed; 
     width: 130px;

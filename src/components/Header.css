@@ -1,8 +1,7 @@
 #house {
-    padding-top: 15%;
     width: 26px;
     height: 28px; 
- 
+    
 }
 
 #sword {
@@ -10,12 +9,19 @@
     height: 30px; 
 }
 
+
+#container {
+    display: flex; 
+    float: right; 
+    width: 115px;
+    justify-content: space-between;
+}
+
+
+
 #icon {
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    left: 24px;
-    top: 25px;
+    width: 31px;
+    height: 31px; 
 }
 
 .header {

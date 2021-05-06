@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <a><img src="../images/icon.png" id="icon"></a>
+    <img src="../images/icon.png" id="icon">
     <a><img src="../images/home.png" id="house"></a>
   </div>
 </template>

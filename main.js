@@ -12,7 +12,7 @@ function createWindow() {
     width: 800,
     height: 600,
     frame: false,
-    icon: './src/images/taskicon.png',
+    icon: './src/images/icon.png',
     webPreferences: {
       nodeIntegration: true
     }

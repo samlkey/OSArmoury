@@ -11,7 +11,7 @@ function createWindow() {
     title: "OS Armoury",
     width: 800,
     height: 600,
-    frame: false,
+    ///frame: false,
     icon: './src/images/icon.png',
     webPreferences: {
       nodeIntegration: true
@@ -27,7 +27,7 @@ function createWindow() {
   mainWindow.on('closed', function () {
     mainWindow = null
   })
-  mainWindow.setMenu(null)
+  //mainWindow.setMenu(null)
 }
 
 console.log(app);

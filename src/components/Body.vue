@@ -1,7 +1,8 @@
 <template>
-  <div class="app">
-   <div class="main">
-       <p>OS Armoury</p>
+  <div id="content">
+      <h1 id="title">OSArmoury</h1>
+      <img src="../images/icon.png" id="bigman">
+      <p>OSRS Companion OSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS Companion</p>
   </div>
 </template>
 
@@ -12,16 +13,36 @@ export default {
 </script>
 
 <style>
-p {
+
+#title {
   font-size: 60px;
-  align-content: center;
   color: #ffff00;
   font-family: osrs;
-  padding-left: 100px;
+  float: left;
+  padding-left: 147px;
+  margin-top: 35px;
 }
 
-#main {
-  align-content: center;
-  text-align: center;
+#bigman {
+    width: 80px;
+    height: 80px;
+    padding-top: 20px;
 }
+
+#yes {
+  margin-top: 40px;
+  margin-left: 15%;
+  margin-right: 3%;
+}
+
+p {
+  float: left;
+}
+
+
+#icon2 {
+  width: 30px;
+  height: 30px;
+}
+
 </style>

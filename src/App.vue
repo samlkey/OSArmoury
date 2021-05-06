@@ -4,14 +4,25 @@
       <div id="container">
         <a><img src="./images/close.png" width="25px" height="25px" id="close"></a>
       </div>
-      
     </div>
+
     <div id="menu">
       <a><h1>&#9664;</h1></a>
       <a><h1 id="flip">&#9664;</h1></a>
     </div>
-    <Header></Header>
-    <Body></Body>
+
+
+
+    <div id=header>
+      <Header></Header>
+    </div>
+
+    <div id="content">
+      <Body></Body>
+    </div>
+  
+  
+  
   </div>
 </template>
 

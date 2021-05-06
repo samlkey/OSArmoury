@@ -20,11 +20,12 @@
 
 
 #icon {
-    width: 31px;
-    height: 31px; 
-    left: 25px;
-    top: 8px;
+    width: 41px;
+    height: 40px; 
     position: absolute;
+    right: 23px;
+    top: 16px;
+
 }
 
 .header {
@@ -41,7 +42,7 @@
     display: inline-grid;
     justify-content: start; 
     row-gap: 5px;
-    grid-template-rows: 50px;
+    grid-template-rows: 65px;
     border: 1px solid #121213;
     border-top: 0px;
     border-left: 0px;
@@ -52,7 +53,7 @@
     width: 30px;
     cursor: pointer;
     margin-left: 14px;
-    margin-top: 56px;
+    margin-top: 10px;
     justify-content: center;
     text-align: center;
     padding: 12px;

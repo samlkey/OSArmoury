@@ -1,8 +1,16 @@
+@font-face {
+    font-family: osrs; 
+    src: url(./fonts/osrs.woff) format('truetype');
+}
+
 html {
     background-color: #1E1E1E;
 }
+
+
+
 #app {
-    font-family: Avenir, Helvetica, Ar292A2Dial, sans-serif;
+    font-family: osrs;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -28,6 +36,7 @@ html {
     left: 110px;
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 #titlebar {

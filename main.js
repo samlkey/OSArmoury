@@ -1,5 +1,6 @@
 const { app, BrowserWindow, Menu, globalShortcut } = require('electron');
 
+
 const url = require("url");
 const path = require("path");
 
@@ -7,10 +8,11 @@ let mainWindow
 
 function createWindow() {
   mainWindow = new BrowserWindow({
+    title: "OS Armoury",
     width: 800,
     height: 600,
-    //frame: false,
-    icon: './src/images/icon.png',
+    frame: false,
+    icon: './src/images/taskicon.png',
     webPreferences: {
       nodeIntegration: true
     }
@@ -25,7 +27,7 @@ function createWindow() {
   mainWindow.on('closed', function () {
     mainWindow = null
   })
-  //mainWindow.setMenu(null)
+  mainWindow.setMenu(null)
 }
 
 console.log(app);

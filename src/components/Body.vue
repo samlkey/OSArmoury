@@ -1,7 +1,7 @@
 <template>
   <div class="app">
-   <div>
-       <h1 style="color: white;">ctr shift i</h1>
+   <div class="main">
+       <p>OS Armoury</p>
   </div>
 </template>
 
@@ -12,7 +12,16 @@ export default {
 </script>
 
 <style>
-.app{
-  height: 100%;
+p {
+  font-size: 60px;
+  align-content: center;
+  color: #ffff00;
+  font-family: osrs;
+  padding-left: 100px;
 }
-</style>>
+
+#main {
+  align-content: center;
+  text-align: center;
+}
+</style>

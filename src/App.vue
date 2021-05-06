@@ -18,7 +18,7 @@
     </div>
 
     <div id="content">
-      <Body></Body>
+      <router-view></router-view>
     </div>
   
   
@@ -28,15 +28,15 @@
 
 
 <script>
-import Body from './components/Body.vue'
+//import Body from './components/Body.vue'
 import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    Body,
+    //Body,
     Header
-  }
+  },
 }
 </script>
 

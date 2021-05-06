@@ -2,16 +2,14 @@
   <div id="app">
     <div id="titlebar">
       <div id="container">
-        <a><img src="./images/mini.png" width="25px" height="25px"></a>
-        <a><img src="./images/max.png" width="25px" height="25px"></a>
+
         <a><img src="./images/close.png" width="25px" height="25px" id="close"></a>
       </div>
       
     </div>
     <div id="menu">
       <a><h1>&#9664;</h1></a>
-      <a><h1>&#9658;</h1></a>
-      <a><h2>⭯</h2></a>
+      <a><h1 id="flip">&#9664;</h1></a>
     </div>
     <Header></Header>
     <Body></Body>

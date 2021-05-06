@@ -1,7 +1,8 @@
-#house {
-    width: 26px;
-    height: 28px; 
-    
+#micon {
+    width: 32px;
+    height: 32px;
+    left: 25px;
+    position: absolute; 
 }
 
 #sword {
@@ -24,7 +25,7 @@
     height: 40px; 
     position: absolute;
     right: 23px;
-    top: 16px;
+    top: 46px;
 
 }
 
@@ -53,7 +54,7 @@
     width: 30px;
     cursor: pointer;
     margin-left: 14px;
-    margin-top: 10px;
+    margin-top: 41px;
     justify-content: center;
     text-align: center;
     padding: 12px;

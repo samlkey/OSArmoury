@@ -2,7 +2,12 @@
   <div id="content">
       <h1 id="title">OSArmoury</h1>
       <img src="../images/icon.png" id="bigman">
-      <p>OSRS Companion OSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS Companion</p>
+      <p>OSRS Companion OSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS Companion
+        OSRS Companion OSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS Companion
+        OSRS Companion OSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS Companion
+        OSRS Companion OSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS Companion
+        OSRS Companion OSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS CompanionOSRS Companion
+      </p>
   </div>
 </template>
 
@@ -15,11 +20,10 @@ export default {
 <style>
 
 #title {
-  font-size: 60px;
+  font-size: 45px;
   color: #ffff00;
   font-family: osrs;
   float: left;
-  padding-left: 147px;
   margin-top: 35px;
 }
 
@@ -29,14 +33,10 @@ export default {
     padding-top: 20px;
 }
 
-#yes {
-  margin-top: 40px;
-  margin-left: 15%;
-  margin-right: 3%;
-}
 
 p {
   float: left;
+  color: #ffff00;
 }
 
 

@@ -2,7 +2,7 @@
   <div class="header">
 
     <a><img src="../images/icon.png" id="icon"></a>
-    <a><img src="../images/home.png" id="house"></a>
+    <a><img src="../images/map.png" id="micon"></a>
 
   </div>
 </template>

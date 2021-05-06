@@ -2,7 +2,6 @@
   <div id="app">
     <div id="titlebar">
       <div id="container">
-
         <a><img src="./images/close.png" width="25px" height="25px" id="close"></a>
       </div>
       

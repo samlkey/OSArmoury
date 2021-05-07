@@ -12,7 +12,7 @@
       <div id="text">
       <p>an OSRS companion and account showcase!</p>
       <p>To use this software simply lookup your OSRS username here:</p>
-      <p style="font-size: 15px; margin-top: -21px;">(OSArmoury doesn't store any usernames)</p>
+      <p style="font-size: 15px; margin-top: -21px;">(Old School Armoury doesn't store any usernames)</p>
       <div class="form__group field">
           <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
           <label for="name" class="form__label">OSRS Name</label>

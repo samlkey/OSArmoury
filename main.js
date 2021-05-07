@@ -19,7 +19,8 @@ function createWindow() {
     icon: './src/images/icon.png',
     webPreferences: {
       nodeIntegration: true,
-      devTools: true
+      devTools: true,
+      enableRemoteModule: true
     }
   })
   mainWindow.loadURL(
@@ -62,3 +63,5 @@ app.on('activate', function () {
   if (mainWindow === null) createWindow()
 })
 
+
+app.setUserTasks([])

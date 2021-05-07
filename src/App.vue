@@ -2,9 +2,10 @@
   <div id="app">
     <div id="titlebar">
       <div id="container">
-        <a><img src="./images/close.png" width="25px" height="25px" id="close"></a>
+        <a v-on:click="exit()"><img src="./images/close.png" width="25px" height="25px" id="close"></a>
       </div>
     </div>
+    <div id="titlebar2"></div>
 
     <div id="menu">
       <a><h1>&#9664;</h1></a>
@@ -30,6 +31,8 @@
 <script>
 //import Body from './components/Body.vue'
 import Header from './components/Header.vue'
+  
+
 
 export default {
   name: 'App',
@@ -37,6 +40,11 @@ export default {
     //Body,
     Header
   },
+  methods: {
+    exit : function() {
+      window.close();
+    }
+  }
 }
 </script>
 

@@ -6,6 +6,8 @@
 html {
     background-color: #1E1E1E;
     font-family: osrs;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #content {
